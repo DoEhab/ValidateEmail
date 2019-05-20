@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AppCompatDelegate;
 import android.view.MenuItem;
 import test.com.validateemail.R;
-import test.com.validateemail.utils.AppDataHolder;
 
 
 public class ValidateEmailBaseActivity extends AppCompatActivity {
