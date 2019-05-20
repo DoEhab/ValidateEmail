@@ -37,6 +37,7 @@ class HomeFragment : ValidateEmailBaseFragment(){
         super.onViewCreated(view, savedInstanceState)
         val application = activity?.application as ValidateEmailApp
         application.getComponent().inject(this)
+        setToolbarWithBackBtn(getString(R.string.validate_mail))
         textView_check.setOnClickListener {
             val checkEmailResult = viewModel.checkEmail(editText_email.text.toString())
             if (checkEmailResult.first == true ) {

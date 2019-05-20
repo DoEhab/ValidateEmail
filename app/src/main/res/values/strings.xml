@@ -13,5 +13,6 @@
     <string name="empty_email">Email is empty</string>
     <string name="valid">Valid Email</string>
     <string name="not_valid">Not a valid email</string>
+    <string name="validate_mail">Validate my Email</string>
 
 </resources>
